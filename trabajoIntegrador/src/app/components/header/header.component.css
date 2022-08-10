@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.baner {
+  background-image: url(C:\Users\Lenovo\OneDrive\Escritorio\argentinaPrograma\trabajoIntegrador\src\assets\baner.png);
+  background-repeat: no-repeat;
+  height: 70vh;
+  text-align: center;
+}
