@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.experiencia {
+  background-color: rgb(37, 39, 52);
+}
+
+.title-experiencia {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.col {
+  margin-left: 3rem;
+  padding-right: 4rem;
+  margin-top: 2rem;
+}
+
+.trabajo {
+  padding-right: 10rem !important;
+  padding-left: 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .col {
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .title-experiencia {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .trabajo {
+    text-align: center;
+  }
+}

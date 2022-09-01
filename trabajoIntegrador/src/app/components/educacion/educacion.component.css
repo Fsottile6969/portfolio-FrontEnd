@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	overflow: hidden;
+  }
+
+.educacion1 {
+	background-color: rgb(37, 39, 52);
+}
+
+.title-educacion {
+	padding-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.col {
+	margin-left: 3rem;
+	padding-right: 4rem;
+	margin-top: 2rem;
+}
+
+.educacion {
+	padding-right: 10rem !important;
+	padding-left: 1rem !important;
+  }
+
+@media (max-width: 767px) {
+	.col {
+		margin-left: 10px;
+		padding-right: 10px;
+	}
+	.title-educacion {
+		text-align: center;
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+		padding-top: 0 !important;
+	}
+	.educacion {
+		text-align: center;
+	}
+}

@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	overflow: hidden;
+  }
+
+.hss {
+	background-color: rgb(37, 39, 52);
+}
+
+.title-hss {
+	text-align: start;
+}
+
+.circle {
+	margin-bottom: 3rem;
+}

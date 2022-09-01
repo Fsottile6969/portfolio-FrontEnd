@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.acercaDe {
+  background-color: rgb(37, 39, 52);
+  width: 100%;
+}
+
+.foto-perfil {
+  width: 144px;
+  height: 160px;
+  border-radius: 100%;
+  position: absolute;
+  left: 85px;
+  top: 660px;
+}
+
+.name-work {
+  margin-left: -6%;
+}
+
+@media (min-width: 1024px) {
+  .foto-perfil {
+    width: 144px;
+    height: 160px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgb(52, 52, 66);
+  }
+  .row-about {
+    display: flex;
+  }
+  .nombre {
+    padding-top: 3rem;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .carrera {
+    font-size: 15px;
+    text-align: center;
+  }
+  .acercaDeMi {
+    padding-top: 3rem;
+    text-align: start;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .perfil {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .foto-perfil {
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgb(52, 52, 66);
+    justify-content: center;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+  .nombre {
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .carrera {
+    font-size: 15px;
+    text-align: center;
+  }
+  .acercaDeMi {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .sobreMi {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 2rem;
+  }
+}

@@ -2,9 +2,27 @@
   box-sizing: border-box;
   overflow: hidden;
 }
+
+.navbar {
+  background-color: rgb(37, 39, 52) !important;
+  
+}
+
+.nav-link i:hover {
+  border: 1px white !important;
+  color: rgb(75, 98, 249) !important;
+}
+
+.logo {
+  width: 130px;
+  height: 70px;
+}
+
+button {
+  color: white !important;
+}
+
 .baner {
-  background-image: url(C:\Users\Lenovo\OneDrive\Escritorio\argentinaPrograma\trabajoIntegrador\src\assets\baner.png);
-  background-repeat: no-repeat;
-  height: 70vh;
-  text-align: center;
+  object-fit: cover;
+  width: 100%;
 }
